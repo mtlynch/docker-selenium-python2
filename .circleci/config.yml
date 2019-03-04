@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-      - image: docker:18.09.3-ce-git
+      - image: docker:18.09.3
     steps:
       - checkout
       - setup_remote_docker
